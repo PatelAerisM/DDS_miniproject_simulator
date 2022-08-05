@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
+    <link rel="stylesheet" href="./assets/stylesheets/style.css">
+    <link rel="stylesheet" href="./assets/stylesheets/header-1.css">
+    <link rel="stylesheet" href="./assets/stylesheets/table.css">
+    <link rel="stylesheet" href="./assets/stylesheets/quiz.css">
+    <link rel="stylesheet" href="./assets/stylesheets/quiz-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <title>Pre Test</title>
+    <style>
+        h1,
+        h2,
+        h3 {
+            margin: 1rem 0;
+        }
+
+        h2 {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="nav-wrapper">
+        <header class="site-header container">
+            <div class="wrapper site-header__wrapper">
+                <a href="./index.html" style="font-weight: bold;" class="brand"></a>
+                <nav class="nav">
+                    <svg class="nav__toggle" fill="#3e6389" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"
+                        width="48px" height="48px">
+                        <path
+                            d="M 0 7.5 L 0 12.5 L 50 12.5 L 50 7.5 Z M 0 22.5 L 0 27.5 L 50 27.5 L 50 22.5 Z M 0 37.5 L 0 42.5 L 50 42.5 L 50 37.5 Z" />
+                    </svg>
+
+                    <ul class="nav__wrapper">
+                        <li class="nav__item"><a href="./index.html">Aim</a></li>
+                        <li class="nav__item"><a href="./report.html">Theory</a></li>
+                        <li class="nav__item"><a href="./pre-test.html">Pre Test</a></li>
+                        <li class="nav__item nav__item--end"><a href="./procedure.html">Procedure</a></li>
+                        <li class="nav__item"><a href="./simulator.html">Simulation</a></li>
+                        <li class="nav__item"><a href="./post-test.html">Post Test</a></li>
+                        <li class="nav__item"><a href="./reference.html">References</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <section class="report-main container" style="margin-bottom: 3rem;">
+        <h2 style="text-align: center; font-weight: bold; font-size: 32px;">Pre Test</h2>
+
+        <section class="quiz">
+            <div id="quiz">
+                <div class="question">
+                    Which is/are the properties of a single stuck-at-fault ?
+                </div>
+
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="question0" value="a">
+                        a: Only one line is faulty
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question0" value="b">
+                        b: The faulty line is parmanenetly set to 0 or 1
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question0" value="c">
+                        c: The fault can be placed at an input or output of a gate
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question0" value="d">
+                        d: All of these
+                    </label>
+
+                </div>
+
+
+                <div class="question">
+                    When will the output always be 1 in 2-input XOR gate ?
+                </div>
+
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="question1" value="a">
+                        a: When both the inputs are same
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question1" value="b">
+                        b: When both the inputs are different
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question1" value="c">
+                        c: All the above answers
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question1" value="d">
+                        d: None of these
+                    </label>
+
+                </div>
+
+
+                <div class="question">
+                    We can put Stuck-at-fault anywhere in circuit (before and after gate)?
+                </div>
+
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="question2" value="a">
+                        a: True
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question2" value="b">
+                        b: False
+                    </label>
+
+                    <!-- <label>
+    <input type="radio" name="question2" value="c">
+          c: Half subtractor
+        </label>
+
+                    <label>
+    <input type="radio" name="question2" value="d">
+          d: Decoder
+        </label> -->
+
+                </div>
+
+
+                <div class="question">
+                    From the following options which is the real world example of XOR gate?
+
+                </div>
+
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="question3" value="a">
+                        a: Radio
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question3" value="b">
+                        b: Switch Board
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question3" value="c">
+                        c: Game Show Buzzer
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question3" value="d">
+                        d: Transformer
+                    </label>
+
+                </div>
+
+
+                <div class="question">
+                    How many inputs is/are required to define stuck-at concept ?
+                </div>
+
+                <div class="answers">
+                    <label>
+                        <input type="radio" name="question4" value="a">
+                        a: Minimum 1, Maximum 3
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question4" value="b">
+                        b: Minimum 1, Maximum 5
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question4" value="c">
+                        c: Minimum 2, Maximum n
+                    </label>
+
+                    <label>
+                        <input type="radio" name="question4" value="d">
+                        d: Minimum 1, Maximum n
+                    </label>
+
+                </div>
+
+
+            </div>
+            <button id="submit" class="btn btn-primary">Submit Quiz</button>
+            <div id="results"></div>
+            </div>
+        </section>
+        <script>
+            const myQuestions = [{
+                "question": "Which is/are the properties of a single stuck-at-fault ?",
+                "answers": {
+                    "a": "Only one line is faulty",
+                    "b": "The faulty line is parmanenetly set to 0 or 1",
+                    "c": "The fault can be placed at an input or output of a gate",
+                    "d": "All of these"
+                },
+                "correctAnswer": "d"
+            }, {
+                "question": "When will the output always be 1 in 2-input XOR gate ?",
+                "answers": {
+                    "a": "When both the inputs are same",
+                    "b": "When both the inputs are different",
+                    "c": "All the above answers",
+                    "d": "None of these"
+                },
+                "correctAnswer": "a"
+            }, {
+                "question": "We can put Stuck-at-fault anywhere in circuit (before and after gate)?",
+                "answers": {
+                    "a": "True",
+                    "b": "False"
+                    // "c": "Both the above options.",
+                    // "d": "We can not determine with the given data."
+                },
+                "correctAnswer": "a"
+            }, {
+                "question": "From the following options which is the real world example of XOR gate?",
+                "answers": {
+                    "a": "Radio",
+                    "b": "Switch Board",
+                    "c": "Game Show Buzzer",
+                    "d": "Transformer"
+                },
+                "correctAnswer": "c"
+            }, {
+                "question": "How many inputs is/are required to define stuck-at concept ?",
+                "answers": {
+                    "a": "Minimum 1, Maximum 3",
+                    "b": "Minimum 1, Maximum 5",
+                    "c": "Minimum 2, Maximum n",
+                    "d": "Minimum 1, Maximum n"
+                },
+                "correctAnswer": "d"
+            }];
+        </script>
+        <script>
+            const quizContainer = document.getElementById("quiz");
+            const resultsContainer = document.getElementById("results");
+            const submitButton = document.getElementById("submit");
+
+
+            function showResults() {
+                // gather answer containers from our quiz
+                const answerContainers = quizContainer.querySelectorAll(".answers");
+                answerContainers.forEach(e => e.style.color = "black");
+
+                // keep track of user's answers
+                let numCorrect = 0;
+
+                // for each question...
+                myQuestions.forEach((currentQuestion, questionNumber) => {
+                    // find selected answer
+                    const answerContainer = answerContainers[questionNumber];
+                    const selector = `input[name=question${questionNumber}]:checked`;
+                    const userAnswer = (answerContainer.querySelector(selector) || {}).value;
+
+                    // if answer is correct
+                    if (userAnswer === currentQuestion.correctAnswer) {
+                        // add to the number of correct answers
+                        numCorrect++;
+
+                        // color the answers green
+                        //answerContainers[questionNumber].style.color = "lightgreen";
+                    } else {
+                        // if answer is wrong or blank
+                        // color the answers red
+                        answerContainers[questionNumber].style.color = "red";
+                    }
+                });
+
+                // show number of correct answers out of total
+                resultsContainer.innerHTML = `You scored  ${numCorrect} out of ${myQuestions.length}`;
+            }
+
+
+            submitButton.addEventListener("click", showResults);
+        </script>
+
+    </section>
+</body>
+<script src="./assets/scripts/navbar.js"></script>
+<script src="./assets/scripts/simulation.js"></script>
+<script src="./assets/scripts/question.js"></script>
+
+</script>
+
+</html>
